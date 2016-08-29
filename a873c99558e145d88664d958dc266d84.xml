@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="Z" folio="20474" LugarExpedicion="GDL AUTOSAG" NumCtaPago="EFECTIVO" fecha="2012-12-18T13:30:14" sello="pE5i8L3nrqeGCVfs0A7s3agklhv6DzXXdtp7jgOuYlbWwZtXSQKO/Li2N3PP1oG+LprhX/ygEKBqIQx7IXUpzTHrzRNcn7fm/TR6MKnSWr8aQ+WFBKg5CY+pV+QBgQF6XnIgCUCFDza3cv8j8DIw6vE+4l0deuK9zd8V4dM6LKs=" formaDePago="EL PAGO DE LA CONTRAPRESTACION SE HACE EN UNA SOLA EXHIBICION, TASA IVA 16%" noCertificado="00001000000200620530" certificado="MIIEuTCCA6GgAwIBAgIUMDAwMDEwMDAwMDAyMDA2MjA1MzAwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMDMyMjIwMjYxN1oXDTE2MDMyMjIwMjYxN1owgfoxMTAvBgNVBAMTKEFVVE9MSU5FQVMgU0FOIExVSVMgR1VBREFMQUpBUkEgU0EgREUgQ1YxMTAvBgNVBCkTKEFVVE9MSU5FQVMgU0FOIExVSVMgR1VBREFMQUpBUkEgU0EgREUgQ1YxMTAvBgNVBAoTKEFVVE9MSU5FQVMgU0FOIExVSVMgR1VBREFMQUpBUkEgU0EgREUgQ1YxJTAjBgNVBC0THEFTTDk4MDMyNUhXMSAvIFJPQkY1NTExMTNIRTQxHjAcBgNVBAUTFSAvIFJPQkY1NTExMTNIU1BCTFIwNzEYMBYGA1UECxMPc2FuIGx1aXMgcG90b3NpMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0HEF4s1iRCWqMmic5wH4bT/4TsZKMRadueArb0mWN53QG6PE+wcj6HH/7t5OPJjJEFcwjY4DWTwQKCLqFDTOBBY8JqNm8z8s9I6fiTbWl6UZoJO4DdpmSrSIqfyBLlWi00FvZSX7ER7G8BGLck5Wka5ZMJzGdiT3DDK+qbsQ0cwIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAf8T9gWccrH41hdwQv77PJlysIziqYk1lP9Qsi8XEOLbtNwuwS1EB/k+KpDyY+CpiIgqPZPMnyq3P+4EK49+ffObaYiR8lF/leIKcvPCSuHI3E8CNZ7cPnI7o2iVxUy/U0nmKNvawPGV2k4zm7cXDAgF3HM3e+7uWGqlwNfpPo3SKhSTEn/z5o2lodXAlpwny81eqmcRMesAIf+oy7nKHSHod8Ai4HOFHKWKjGiOjVqrLXx7vhnCE+U4ezwv1zUKmQk3S/gNIY3r380I544PsyZfJUoa1HDL5ENGg5hxahH5AMF0Pzrc80yomGuLQjIYjzQzwIeyqHP7J9xCXD5KGwg==" condicionesDePago="2 Flete por cobrar" subTotal="95.000000" TipoCambio="1.0000" Moneda="MXN" total="106.400000" metodoDePago="EFECTIVO" tipoDeComprobante="ingreso" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<cfdi:Emisor rfc="ASL980325HW1" nombre="Autolineas San Luis Guadalajara S.A. de C.V.">
+		<cfdi:DomicilioFiscal calle="Republica de Perú" noExterior="100" colonia="Fraccionamiento Santuario" municipio="San Luis Potosí" estado="San Luis Potosí" pais="México" codigoPostal="78380" />
+		<cfdi:ExpedidoEn calle="Pichón" noExterior="1179" colonia="Morelos" municipio="Guadalajara" estado="Jalisco" pais="México" codigoPostal="44910" />
+		<cfdi:RegimenFiscal Regimen="Regimen Simplificado" />
+	</cfdi:Emisor>
+	<cfdi:Receptor rfc="BMC0210314G6" nombre="BANDAS Y MANGUERAS EL CAMINO SA DE CV">
+		<cfdi:Domicilio calle="BLVD ANTONIO ROCHA CORDERO #409" colonia="SIMON DIAZ" localidad="SAN LUIS POTOSI" estado="San Luis Potosí" pais="México" codigoPostal="78380" />
+	</cfdi:Receptor>
+	<cfdi:Conceptos>
+		<cfdi:Concepto cantidad="1.000000" unidad="No Aplica" descripcion="Flete" valorUnitario="95.000000" importe="95.000000">
+			<cfdi:Parte cantidad="2.000000" unidad="ATADOS" descripcion="2 CAJAS 0.6 x 0.8 x0.7¬112.25¬0.25¬70" valorUnitario="0.000000" importe="0.000000" />
+			<cfdi:Parte cantidad="2.000000" unidad="CAJAS" descripcion="¬0¬0¬0" valorUnitario="0.000000" importe="0.000000" />
+		</cfdi:Concepto>
+	</cfdi:Conceptos>
+	<cfdi:Impuestos totalImpuestosRetenidos="3.800000" totalImpuestosTrasladados="15.200000">
+		<cfdi:Retenciones>
+			<cfdi:Retencion impuesto="IVA" importe="3.800000" />
+		</cfdi:Retenciones>
+		<cfdi:Traslados>
+			<cfdi:Traslado impuesto="IVA" tasa="16.000000" importe="15.200000" />
+		</cfdi:Traslados>
+	</cfdi:Impuestos>
+	<cfdi:Complemento>
+		<tfd:TimbreFiscalDigital xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/TimbreFiscalDigital/TimbreFiscalDigital.xsd" version="1.0" UUID="A125555B-6948-40AD-B2F2-A743ACDF7823" FechaTimbrado="2012-12-18T14:30:24" selloCFD="pE5i8L3nrqeGCVfs0A7s3agklhv6DzXXdtp7jgOuYlbWwZtXSQKO/Li2N3PP1oG+LprhX/ygEKBqIQx7IXUpzTHrzRNcn7fm/TR6MKnSWr8aQ+WFBKg5CY+pV+QBgQF6XnIgCUCFDza3cv8j8DIw6vE+4l0deuK9zd8V4dM6LKs=" noCertificadoSAT="00001000000102508049" selloSAT="mA0347SH+uLu0dh2hpph+0fZk+/jUbYmi1CIMAvJ1/cYNggTZo2eWV471QSNoHa/+cqiRtAI3wiTpGDbsHBuJs5o14S5JgTFMq/2E0/LX7Z/L9PFhVoPkWumYcTueO6Va8LoDawNxHfLBVf6PTpcLCV5076hiuRfBgq555Hm7bY=" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+	</cfdi:Complemento>
+</cfdi:Comprobante>
