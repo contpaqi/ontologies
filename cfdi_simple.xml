@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante
+        xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd"
+        folio="20474" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+        <cfdi:Conceptos>
+                <cfdi:Concepto unidad="TABLETAS" importe="84.50"
+                        cantidad="1.0" descripcion="SEDEPRON 250MG 10" valorUnitario="84.50" />
+        </cfdi:Conceptos>
+
+</cfdi:Comprobante>
