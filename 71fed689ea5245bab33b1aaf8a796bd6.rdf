@@ -1,0 +1,730 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://knowtive.com/ontologies/cfdi.owl#"
+     xml:base="http://knowtive.com/ontologies/cfdi.owl"
+     xmlns:cfd="http://www.sat.gob.mx/cfd/3#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://knowtive.com/ontologies/cfdi.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#has0fa524696fd86439c1d48f0ecc1b6ae6Comprobante -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#has0fa524696fd86439c1d48f0ecc1b6ae6Comprobante">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#Emisor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasA634b808656a3943379f28257782b83cConceptos -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasA634b808656a3943379f28257782b83cConceptos">
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#Concepto"/>
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Conceptos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasA7be8855537f1bfe281ee2e7c1abc8c8Comprobante -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasA7be8855537f1bfe281ee2e7c1abc8c8Comprobante">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#Receptor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasComprobante0fa524696fd86439c1d48f0ecc1b6ae6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobante0fa524696fd86439c1d48f0ecc1b6ae6">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#Emisor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasComprobanteConceptos -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobanteConceptos">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#Conceptos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasComprobanteEmisor -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobanteEmisor">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#Emisor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasComprobanteFecha -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobanteFecha">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#fecha"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasComprobanteLugarExpedicion -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobanteLugarExpedicion">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#LugarExpedicion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasComprobanteMetodoDePago -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobanteMetodoDePago">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#metodoDePago"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasComprobanteReceptor -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobanteReceptor">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#Receptor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasComprobanteSubTotal -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobanteSubTotal">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#subTotal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasComprobanteTipoDeComprobante -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobanteTipoDeComprobante">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#tipoDeComprobante"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasComprobanteTotal -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobanteTotal">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#total"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasComprobanteVersion -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobanteVersion">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#version"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasComprobantea7be8855537f1bfe281ee2e7c1abc8c8 -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobantea7be8855537f1bfe281ee2e7c1abc8c8">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#Receptor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasComprobantef9762e9a7aee498cb893fe924acfd59a -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobantef9762e9a7aee498cb893fe924acfd59a">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#Conceptos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasConceptoCantidad -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasConceptoCantidad">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Concepto"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#cantidad"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasConceptoDescripcion -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasConceptoDescripcion">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Concepto"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#descripcion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasConceptoImporte -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasConceptoImporte">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Concepto"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#importe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasConceptoUnidad -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasConceptoUnidad">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Concepto"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#unidad"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasConceptoValorUnitario -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasConceptoValorUnitario">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Concepto"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#valorUnitario"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasConceptosConcepto -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasConceptosConcepto">
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#Concepto"/>
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Conceptos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasConceptosa634b808656a3943379f28257782b83c -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasConceptosa634b808656a3943379f28257782b83c">
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#Concepto"/>
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Conceptos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasEmisorNombre -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasEmisorNombre">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Emisor"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#nombre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasEmisorRfc -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasEmisorRfc">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Emisor"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#rfc"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasF9762e9a7aee498cb893fe924acfd59aComprobante -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasF9762e9a7aee498cb893fe924acfd59aComprobante">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#Conceptos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasReceptorNombre -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasReceptorNombre">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Receptor"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#nombre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#hasReceptorRfc -->
+
+    <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasReceptorRfc">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Receptor"/>
+        <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#rfc"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#typeCantidad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.sat.gob.mx/cfd/3#typeCantidad">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#cantidad"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#typeDescripcion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.sat.gob.mx/cfd/3#typeDescripcion">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#descripcion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#typeFecha -->
+
+    <owl:DatatypeProperty rdf:about="http://www.sat.gob.mx/cfd/3#typeFecha">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#fecha"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#typeImporte -->
+
+    <owl:DatatypeProperty rdf:about="http://www.sat.gob.mx/cfd/3#typeImporte">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#importe"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#typeLugarExpedicion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.sat.gob.mx/cfd/3#typeLugarExpedicion">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#LugarExpedicion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#typeMetodoDePago -->
+
+    <owl:DatatypeProperty rdf:about="http://www.sat.gob.mx/cfd/3#typeMetodoDePago">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#metodoDePago"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#typeNombre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.sat.gob.mx/cfd/3#typeNombre">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#nombre"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#typeRfc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.sat.gob.mx/cfd/3#typeRfc">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#rfc"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#typeSubTotal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.sat.gob.mx/cfd/3#typeSubTotal">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#subTotal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#typeTipoDeComprobante -->
+
+    <owl:DatatypeProperty rdf:about="http://www.sat.gob.mx/cfd/3#typeTipoDeComprobante">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#tipoDeComprobante"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#typeTotal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.sat.gob.mx/cfd/3#typeTotal">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#total"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#typeUnidad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.sat.gob.mx/cfd/3#typeUnidad">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#unidad"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#typeValorUnitario -->
+
+    <owl:DatatypeProperty rdf:about="http://www.sat.gob.mx/cfd/3#typeValorUnitario">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#valorUnitario"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#typeVersion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.sat.gob.mx/cfd/3#typeVersion">
+        <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#version"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#Comprobante -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#Comprobante"/>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#Concepto -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#Concepto"/>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#Conceptos -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#Conceptos"/>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#Emisor -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#Emisor"/>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#LugarExpedicion -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#LugarExpedicion"/>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#Receptor -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#Receptor"/>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#cantidad -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#cantidad"/>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#descripcion -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#descripcion"/>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#fecha -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#fecha"/>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#importe -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#importe"/>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#metodoDePago -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#metodoDePago"/>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#nombre -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#nombre"/>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#rfc -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#rfc"/>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#subTotal -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#subTotal"/>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#tipoDeComprobante -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#tipoDeComprobante"/>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#total -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#total"/>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#unidad -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#unidad"/>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#valorUnitario -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#valorUnitario"/>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#version -->
+
+    <owl:Class rdf:about="http://www.sat.gob.mx/cfd/3#version"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#CAPSULAS -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#CAPSULAS">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#unidad"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#JUANPEREZPEREZ -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#JUANPEREZPEREZ">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#nombre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#Mexico -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#Mexico">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#LugarExpedicion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#PEPJ8001019Q8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#PEPJ8001019Q8">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#rfc"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#PHARMAPLUSSADECV -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#PHARMAPLUSSADECV">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#nombre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#PPL961114GZ1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#PPL961114GZ1">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#rfc"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#VIBRAMICINA100MG10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#VIBRAMICINA100MG10">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#descripcion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#cheque -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#cheque">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#metodoDePago"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#ingreso -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#ingreso">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#tipoDeComprobante"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#1.0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#1.0">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#cantidad"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#2012-01-01T20:38:12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#2012-01-01T20:38:12">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#fecha"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#244.00 -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#244.00">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#importe"/>
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#valorUnitario"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#3.2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#3.2">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#version"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#488.50 -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#488.50">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#subTotal"/>
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#total"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#Comprobante=f9762e9a7aee498cb893fe924acfd59a -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#Comprobante=f9762e9a7aee498cb893fe924acfd59a">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
+        <cfd:typeFecha rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2012-01-01T20:38:12</cfd:typeFecha>
+        <cfd:typeVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</cfd:typeVersion>
+        <cfd:typeTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">488.50</cfd:typeTotal>
+        <cfd:typeSubTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">488.50</cfd:typeSubTotal>
+        <cfd:typeLugarExpedicion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexico</cfd:typeLugarExpedicion>
+        <cfd:typeMetodoDePago rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cheque</cfd:typeMetodoDePago>
+        <cfd:typeTipoDeComprobante rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ingreso</cfd:typeTipoDeComprobante>
+        <cfd:hasF9762e9a7aee498cb893fe924acfd59aComprobante rdf:resource="http://www.sat.gob.mx/cfd/3#Conceptos=f9762e9a7aee498cb893fe924acfd59a"/>
+        <cfd:has0fa524696fd86439c1d48f0ecc1b6ae6Comprobante rdf:resource="http://www.sat.gob.mx/cfd/3#Emisor=0fa524696fd86439c1d48f0ecc1b6ae6"/>
+        <cfd:hasA7be8855537f1bfe281ee2e7c1abc8c8Comprobante rdf:resource="http://www.sat.gob.mx/cfd/3#Receptor=a7be8855537f1bfe281ee2e7c1abc8c8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#Concepto=a634b808656a3943379f28257782b83c -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#Concepto=a634b808656a3943379f28257782b83c">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#Concepto"/>
+        <cfd:typeCantidad rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</cfd:typeCantidad>
+        <cfd:typeValorUnitario rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">244.00</cfd:typeValorUnitario>
+        <cfd:typeImporte rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">244.00</cfd:typeImporte>
+        <cfd:typeUnidad rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAPSULAS</cfd:typeUnidad>
+        <cfd:typeDescripcion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIBRAMICINA100MG10</cfd:typeDescripcion>
+        <cfd:hasConceptosa634b808656a3943379f28257782b83c rdf:resource="http://www.sat.gob.mx/cfd/3#Conceptos=f9762e9a7aee498cb893fe924acfd59a"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#Conceptos=f9762e9a7aee498cb893fe924acfd59a -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#Conceptos=f9762e9a7aee498cb893fe924acfd59a">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#Conceptos"/>
+        <cfd:hasComprobantef9762e9a7aee498cb893fe924acfd59a rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante=f9762e9a7aee498cb893fe924acfd59a"/>
+        <cfd:hasA634b808656a3943379f28257782b83cConceptos rdf:resource="http://www.sat.gob.mx/cfd/3#Concepto=a634b808656a3943379f28257782b83c"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#Emisor=0fa524696fd86439c1d48f0ecc1b6ae6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#Emisor=0fa524696fd86439c1d48f0ecc1b6ae6">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#Emisor"/>
+        <cfd:typeNombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHARMAPLUSSADECV</cfd:typeNombre>
+        <cfd:typeRfc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPL961114GZ1</cfd:typeRfc>
+        <cfd:hasComprobante0fa524696fd86439c1d48f0ecc1b6ae6 rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante=f9762e9a7aee498cb893fe924acfd59a"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.sat.gob.mx/cfd/3#Receptor=a7be8855537f1bfe281ee2e7c1abc8c8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.sat.gob.mx/cfd/3#Receptor=a7be8855537f1bfe281ee2e7c1abc8c8">
+        <rdf:type rdf:resource="http://www.sat.gob.mx/cfd/3#Receptor"/>
+        <cfd:typeNombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JUANPEREZPEREZ</cfd:typeNombre>
+        <cfd:typeRfc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEPJ8001019Q8</cfd:typeRfc>
+        <cfd:hasComprobantea7be8855537f1bfe281ee2e7c1abc8c8 rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante=f9762e9a7aee498cb893fe924acfd59a"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
+
