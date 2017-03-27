@@ -8,92 +8,44 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://knowtive.com/ontologies/cfdi.owl"/>
     
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.sat.gob.mx/cfd/3#has0fa524696fd86439c1d48f0ecc1b6ae6Comprobante -->
-
     <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#has0fa524696fd86439c1d48f0ecc1b6ae6Comprobante">
         <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
         <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#Emisor"/>
     </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.sat.gob.mx/cfd/3#hasA634b808656a3943379f28257782b83cConceptos -->
-
+     
     <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasA634b808656a3943379f28257782b83cConceptos">
         <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#Concepto"/>
         <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Conceptos"/>
     </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.sat.gob.mx/cfd/3#hasA7be8855537f1bfe281ee2e7c1abc8c8Comprobante -->
-
+     
     <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasA7be8855537f1bfe281ee2e7c1abc8c8Comprobante">
         <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
         <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#Receptor"/>
     </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.sat.gob.mx/cfd/3#hasComprobante0fa524696fd86439c1d48f0ecc1b6ae6 -->
-
     <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobante0fa524696fd86439c1d48f0ecc1b6ae6">
         <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
         <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#Emisor"/>
     </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.sat.gob.mx/cfd/3#hasComprobanteConceptos -->
 
     <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobanteConceptos">
         <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
         <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#Conceptos"/>
     </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.sat.gob.mx/cfd/3#hasComprobanteEmisor -->
-
     <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobanteEmisor">
         <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
         <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#Emisor"/>
     </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.sat.gob.mx/cfd/3#hasComprobanteFecha -->
 
     <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobanteFecha">
         <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
         <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#fecha"/>
     </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.sat.gob.mx/cfd/3#hasComprobanteLugarExpedicion -->
 
     <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobanteLugarExpedicion">
         <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
         <rdfs:range rdf:resource="http://www.sat.gob.mx/cfd/3#LugarExpedicion"/>
     </owl:ObjectProperty>
-    
 
-
-    <!-- http://www.sat.gob.mx/cfd/3#hasComprobanteMetodoDePago -->
 
     <owl:ObjectProperty rdf:about="http://www.sat.gob.mx/cfd/3#hasComprobanteMetodoDePago">
         <rdfs:domain rdf:resource="http://www.sat.gob.mx/cfd/3#Comprobante"/>
