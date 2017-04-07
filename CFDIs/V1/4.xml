@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="D" folio="18883" LugarExpedicion="ANTIGUO CAMINO A CONTRERAS 922 , 20 DE NOVIEMBRE, 34236, DURANGO, DURANGO, DURANGO, MEXICO" NumCtaPago="8361" fecha="2013-07-16T18:46:16" sello="dDbk3lCQ5E9iFU5VokdUzouHoIw2B3ACqjZDqIY0i78ZI/otHiik+ijaNxcNTtzzzFmOVGxvCoQ1gduHGhFQ1qgg6Jewsf5I9Il9MnAakjaQTGFu7OfyWl5+23GW2+xJFr0vT0FYFuIYVBzXpLuzLUqmpcfT9y8ASlL7KKn8lNs=" formaDePago="PAGO EN UNA SOLA EXHIBICION" noCertificado="00001000000202963745" certificado="MIIEpzCCA4+gAwIBAgIUMDAwMDEwMDAwMDAyMDI5NjM3NDUwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEzMDIwMjIxNDc0M1oXDTE3MDIwMjIxNDc0M1owgegxLjAsBgNVBAMTJUJBTkRBUyBZIE1BTkdVRVJBUyBFTCBDQU1JTk8gU0EgREUgQ1YxLjAsBgNVBCkTJUJBTkRBUyBZIE1BTkdVRVJBUyBFTCBDQU1JTk8gU0EgREUgQ1YxLjAsBgNVBAoTJUJBTkRBUyBZIE1BTkdVRVJBUyBFTCBDQU1JTk8gU0EgREUgQ1YxJTAjBgNVBC0THEJNQzAyMTAzMTRHNiAvIENPVk82OTA1MjI1TDkxHjAcBgNVBAUTFSAvIENPVk82OTA1MjJIU0xOTEMwODEPMA0GA1UECxMGTUFUUklaMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvoN16G50Qwd/kgpFgmyLYe65h+Vsc05u7StV5pVxImJTzw9oL7xaz2zc0pNoJcWmjjPnAOoJiNVyeN7PJbha/AVqJdCJvlbWaOihv2DYwg8C3eFDYvufNoTmVfALOiMC7HvJOhOGNcMAbVs7yhQWnW8nwHvanY0NqomooKAJ+jQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAlyfI4OuRM5LGsSFknO6zC7Q0uATc5nA6AzOUu3qTmeNaPrXNNZEq4S5CZmwxhcB9zFM1DlKugNZD6g2fqMvFJcg4oLK6dmW751TJ/W+pN/mkHS+yhXgQCD68DmJt43YOt/rm9AEATenZ+wR5HO4ymkyjXyhM6AMY8b/2c0L4+wpD4+B71SC6q0Bj1GSLNlb4OmSrCAzVCAx2QkuA13ohOVqIIo6W5FqghdcIAdTIcqdvqe97GtZzFR7/UrTzbpp4z2q4Zs2irrAdXFTFw6+vfNziBH4q+KXYnlMHapy0ZvnE7wgJJ3u8lRkkpaGjXpaxotI+WthL8RI4z8y+BjrBlA==" subTotal="543.06" TipoCambio="1.00" Moneda="Peso Mexicano" total="629.94" metodoDePago="CHEQUE" tipoDeComprobante="ingreso">
+  <cfdi:Emisor rfc="BMC0210314G6" nombre="BANDAS Y MANGUERAS EL CAMINO SA DE CV">
+    <cfdi:DomicilioFiscal calle="PERIFERICO SUR" noExterior="5183" colonia="PASEOS DEL LAGO" localidad="TLAQUEPAQUE" municipio="TLAQUEPAQUE" estado="JALISCO" pais="MEXICO" codigoPostal="45619"/>
+    <cfdi:ExpedidoEn calle="ANTIGUO CAMINO A CONTRERAS" noExterior="922" colonia="20 DE NOVIEMBRE" localidad="DURANGO" municipio="DURANGO" estado="DURANGO" pais="MEXICO" codigoPostal="34236"/>
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES"/>
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="LUMI720706P59" nombre="ISMAEL LUNA MUÑOZ">
+    <cfdi:Domicilio calle="PASEO DEL GAVILAN" noExterior="111" colonia="SILVESTRE REVUELTAS" localidad="DURANGO" municipio="DURANGO" estado="DURANGO" pais="MEXICO"/>
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="0.60" unidad="METROS" descripcion="MANG MEDIA PRESION 1750 LBS" valorUnitario="100.92" importe="60.55"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="CONEXION DE MEDIA PRESION HEMBRA" valorUnitario="60.69" importe="60.69"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="CONEXION REUSABLE 90" valorUnitario="209.45" importe="209.45"/>
+    <cfdi:Concepto cantidad="1.45" unidad="METROS" descripcion="MANG MEDIA PRESION 2000 LBS" valorUnitario="82.13" importe="119.09"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="MANGUERA CHARTER 1 1/2" valorUnitario="93.28" importe="93.28"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="86.88">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="86.88"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" selloCFD="dDbk3lCQ5E9iFU5VokdUzouHoIw2B3ACqjZDqIY0i78ZI/otHiik+ijaNxcNTtzzzFmOVGxvCoQ1gduHGhFQ1qgg6Jewsf5I9Il9MnAakjaQTGFu7OfyWl5+23GW2+xJFr0vT0FYFuIYVBzXpLuzLUqmpcfT9y8ASlL7KKn8lNs=" FechaTimbrado="2013-07-16T18:48:17" UUID="010564F1-7988-4105-A29F-675665175844" noCertificadoSAT="00001000000202864883" version="1.0" selloSAT="pE3ho5zr9UvQUOO3V4woqQXqhmPep6meZrIhrmqOXYevKV11uAQL5qK5KTSbu5My4iEqfffPn3SOY/hLLgQFCJsOHoWeu+psbz6uj1l8Sju5GRDtpRG7sTIyrd6SOIecToAVqrg5sq8AsbtCa78ztcQcTSErNfeVhtujneCLbBA="/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

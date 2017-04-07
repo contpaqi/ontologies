@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="D" folio="23378" LugarExpedicion="ANTIGUO CAMINO A CONTRERAS 922 , 20 DE NOVIEMBRE, 34236, DURANGO, DURANGO, DURANGO, MEXICO" fecha="2014-02-19T12:23:34" sello="k3wRVf755PlTC5KuG9vmI5tEqZcSRerJRd8ue5+MRyRwOis+AreJYxQYG2dJVRbRTcQ42xCPNHINP/y+QeoxpiCDykYeZdgh0xThV+9CJLBA3hzoXH2BORow0ZQKJdz/sWl+ueAfRNXdL0bIzwPnZ0zvp53QV8lP6Ivyx3XY7Ww=" formaDePago="PAGO EN UNA SOLA EXHIBICION" noCertificado="00001000000202963745" certificado="MIIEpzCCA4+gAwIBAgIUMDAwMDEwMDAwMDAyMDI5NjM3NDUwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEzMDIwMjIxNDc0M1oXDTE3MDIwMjIxNDc0M1owgegxLjAsBgNVBAMTJUJBTkRBUyBZIE1BTkdVRVJBUyBFTCBDQU1JTk8gU0EgREUgQ1YxLjAsBgNVBCkTJUJBTkRBUyBZIE1BTkdVRVJBUyBFTCBDQU1JTk8gU0EgREUgQ1YxLjAsBgNVBAoTJUJBTkRBUyBZIE1BTkdVRVJBUyBFTCBDQU1JTk8gU0EgREUgQ1YxJTAjBgNVBC0THEJNQzAyMTAzMTRHNiAvIENPVk82OTA1MjI1TDkxHjAcBgNVBAUTFSAvIENPVk82OTA1MjJIU0xOTEMwODEPMA0GA1UECxMGTUFUUklaMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvoN16G50Qwd/kgpFgmyLYe65h+Vsc05u7StV5pVxImJTzw9oL7xaz2zc0pNoJcWmjjPnAOoJiNVyeN7PJbha/AVqJdCJvlbWaOihv2DYwg8C3eFDYvufNoTmVfALOiMC7HvJOhOGNcMAbVs7yhQWnW8nwHvanY0NqomooKAJ+jQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAlyfI4OuRM5LGsSFknO6zC7Q0uATc5nA6AzOUu3qTmeNaPrXNNZEq4S5CZmwxhcB9zFM1DlKugNZD6g2fqMvFJcg4oLK6dmW751TJ/W+pN/mkHS+yhXgQCD68DmJt43YOt/rm9AEATenZ+wR5HO4ymkyjXyhM6AMY8b/2c0L4+wpD4+B71SC6q0Bj1GSLNlb4OmSrCAzVCAx2QkuA13ohOVqIIo6W5FqghdcIAdTIcqdvqe97GtZzFR7/UrTzbpp4z2q4Zs2irrAdXFTFw6+vfNziBH4q+KXYnlMHapy0ZvnE7wgJJ3u8lRkkpaGjXpaxotI+WthL8RI4z8y+BjrBlA==" subTotal="1700.17" TipoCambio="1.00" Moneda="Peso Mexicano" total="1972.19" metodoDePago="No Identificado" tipoDeComprobante="ingreso">
+  <cfdi:Emisor rfc="BMC0210314G6" nombre="BANDAS Y MANGUERAS EL CAMINO SA DE CV">
+    <cfdi:DomicilioFiscal calle="PERIFERICO SUR" noExterior="5183" colonia="PASEOS DEL LAGO" localidad="TLAQUEPAQUE" municipio="TLAQUEPAQUE" estado="JALISCO" pais="MEXICO" codigoPostal="45619"/>
+    <cfdi:ExpedidoEn calle="ANTIGUO CAMINO A CONTRERAS" noExterior="922" colonia="20 DE NOVIEMBRE" localidad="DURANGO" municipio="DURANGO" estado="DURANGO" pais="MEXICO" codigoPostal="34236"/>
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES"/>
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="AUN050804LT9" nombre="ACEROS UNIVERSAL S.A DE C.V">
+    <cfdi:Domicilio calle="CARRETERA A MEXICO" noExterior="1115" colonia="FRACC.C.RESERVA T SUR CIUDAD IND." localidad="DURANGO" municipio="DURANGO" estado="DURANGO" pais="MEXICO"/>
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="CINTA REFLEJANTE" valorUnitario="1681.03" importe="1681.03"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="MACHO ORING A MACHO JIC" valorUnitario="19.14" importe="19.14"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="272.02">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="272.02"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" selloCFD="k3wRVf755PlTC5KuG9vmI5tEqZcSRerJRd8ue5+MRyRwOis+AreJYxQYG2dJVRbRTcQ42xCPNHINP/y+QeoxpiCDykYeZdgh0xThV+9CJLBA3hzoXH2BORow0ZQKJdz/sWl+ueAfRNXdL0bIzwPnZ0zvp53QV8lP6Ivyx3XY7Ww=" FechaTimbrado="2014-02-19T12:23:37" UUID="46EDD1C2-B99B-4E40-8825-AB285E9DF017" noCertificadoSAT="00001000000202864883" version="1.0" selloSAT="ZTaKKiwGxQ2dVJXF7/w1OIMAKVo0CIko9Es3ZC7MmF1kjszpvdu6k7C5sPL+y1G5XPLPqQEM5DRElzjiPQFcu9TX8jilWKMRlnF6aBaeQPNrEx019qbDB51G3GIa2fcJe7kMMalM2K8XVqE+PtLpZoCVXi8X/p/4UCIRtN48Hz0="/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

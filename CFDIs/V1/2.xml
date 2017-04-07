@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="SLC" folio="121" LugarExpedicion="BLVD. ANTONIO ROCHA CORDERO 409 , SIMON DIAZ, 78380, SAN LUIS POTOSI, SAN LUIS POTOSI, SAN LUIS POTOSI, MEXICO" fecha="2013-11-06T18:04:34" sello="NTW0qc6B7v9oHwemRnXQQKT+OZX5GcPIbeqr8jCF/KgBXHRp+gEV1ug3qhEmCr1jjFc5jAMTjMoH7opgcZPMNN9z8gxOgRWrDoMhvAdnxdF1ILTZYUX/1cIq3opB+N0UBgl6PUZhOR0qf7tYIZjmhLpgMC7l/fj9X8PtoHZTw2k=" formaDePago="PAGO EN UNA SOLA EXHIBICION" noCertificado="00001000000202963745" certificado="MIIEpzCCA4+gAwIBAgIUMDAwMDEwMDAwMDAyMDI5NjM3NDUwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEzMDIwMjIxNDc0M1oXDTE3MDIwMjIxNDc0M1owgegxLjAsBgNVBAMTJUJBTkRBUyBZIE1BTkdVRVJBUyBFTCBDQU1JTk8gU0EgREUgQ1YxLjAsBgNVBCkTJUJBTkRBUyBZIE1BTkdVRVJBUyBFTCBDQU1JTk8gU0EgREUgQ1YxLjAsBgNVBAoTJUJBTkRBUyBZIE1BTkdVRVJBUyBFTCBDQU1JTk8gU0EgREUgQ1YxJTAjBgNVBC0THEJNQzAyMTAzMTRHNiAvIENPVk82OTA1MjI1TDkxHjAcBgNVBAUTFSAvIENPVk82OTA1MjJIU0xOTEMwODEPMA0GA1UECxMGTUFUUklaMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvoN16G50Qwd/kgpFgmyLYe65h+Vsc05u7StV5pVxImJTzw9oL7xaz2zc0pNoJcWmjjPnAOoJiNVyeN7PJbha/AVqJdCJvlbWaOihv2DYwg8C3eFDYvufNoTmVfALOiMC7HvJOhOGNcMAbVs7yhQWnW8nwHvanY0NqomooKAJ+jQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAlyfI4OuRM5LGsSFknO6zC7Q0uATc5nA6AzOUu3qTmeNaPrXNNZEq4S5CZmwxhcB9zFM1DlKugNZD6g2fqMvFJcg4oLK6dmW751TJ/W+pN/mkHS+yhXgQCD68DmJt43YOt/rm9AEATenZ+wR5HO4ymkyjXyhM6AMY8b/2c0L4+wpD4+B71SC6q0Bj1GSLNlb4OmSrCAzVCAx2QkuA13ohOVqIIo6W5FqghdcIAdTIcqdvqe97GtZzFR7/UrTzbpp4z2q4Zs2irrAdXFTFw6+vfNziBH4q+KXYnlMHapy0ZvnE7wgJJ3u8lRkkpaGjXpaxotI+WthL8RI4z8y+BjrBlA==" subTotal="1444.34" TipoCambio="1.00" Moneda="Peso Mexicano" total="1675.44" metodoDePago="No identificado" tipoDeComprobante="ingreso">
+  <cfdi:Emisor rfc="BMC0210314G6" nombre="BANDAS Y MANGUERAS EL CAMINO SA DE CV">
+    <cfdi:DomicilioFiscal calle="PERIFERICO SUR" noExterior="5183" colonia="PASEOS DEL LAGO" localidad="TLAQUEPAQUE" municipio="TLAQUEPAQUE" estado="JALISCO" pais="MEXICO" codigoPostal="45619"/>
+    <cfdi:ExpedidoEn calle="BLVD. ANTONIO ROCHA CORDERO" noExterior="409" colonia="SIMON DIAZ" localidad="SAN LUIS POTOSI" municipio="SAN LUIS POTOSI" estado="SAN LUIS POTOSI" pais="MEXICO" codigoPostal="78380"/>
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES"/>
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="XAXX010101000" nombre="CLIENTE DE MOSTRADOR SAN LUIS POTOSI">
+    <cfdi:Domicilio calle="CONOCIDO" noExterior="S/N" colonia="CONOCIDA" localidad="SAN LUIS POTOSI" municipio="SAN LUIS POTOSI" estado="SAN LUIS POTOSI" pais="MEXICO" codigoPostal="00000"/>
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="BARRIL BRONCE 3/8" valorUnitario="6.50" importe="13.00"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="TUERCA CORTA" valorUnitario="17.17" importe="17.17"/>
+    <cfdi:Concepto cantidad="1.13" unidad="METROS" descripcion="MANGUERA BAJA PSI CUB DE HULE" valorUnitario="62.51" importe="70.64"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="STEM GS HEMBRA JIC GIRATORIA" valorUnitario="53.57" importe="107.14"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="STEM GS MUY ALTA PSI HEMBRA JI C" valorUnitario="116.05" importe="232.10"/>
+    <cfdi:Concepto cantidad="4.00" unidad="PIEZA" descripcion="FERULA GS PARA MANG 4 MALLAS" valorUnitario="62.36" importe="249.44"/>
+    <cfdi:Concepto cantidad="3.00" unidad="PIEZA" descripcion="MANG. AVENGER 2 TRENZAS -6 (3/8)" valorUnitario="61.45" importe="184.35"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="HEMBRA JIC 37 GIRATORIA" valorUnitario="42.29" importe="42.29"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="HEMBRA JIC 37 GIRATORIA CODO 9 0 CORTO" valorUnitario="109.79" importe="109.79"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="MANG. AVENGER 2 TRENZAS -6 (3/8)" valorUnitario="61.45" importe="61.45"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="HEMBRA JIC 37 GIRATORIA" valorUnitario="42.29" importe="84.58"/>
+    <cfdi:Concepto cantidad="0.54" unidad="PIEZA" descripcion="MANG. AVENGER 2 TRENZAS -6 (3/8)" valorUnitario="61.45" importe="33.18"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="HEMBRA JIC 37 GIRATORIA" valorUnitario="42.29" importe="84.58"/>
+    <cfdi:Concepto cantidad="1.14" unidad="PIEZA" descripcion="MANG. AVENGER 2 TRENZAS -6 (3/8)" valorUnitario="61.45" importe="70.05"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="HEMBRA JIC 37 GIRATORIA" valorUnitario="42.29" importe="84.58"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="231.10">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="231.10"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" selloCFD="NTW0qc6B7v9oHwemRnXQQKT+OZX5GcPIbeqr8jCF/KgBXHRp+gEV1ug3qhEmCr1jjFc5jAMTjMoH7opgcZPMNN9z8gxOgRWrDoMhvAdnxdF1ILTZYUX/1cIq3opB+N0UBgl6PUZhOR0qf7tYIZjmhLpgMC7l/fj9X8PtoHZTw2k=" FechaTimbrado="2013-11-06T18:04:39" UUID="2CFF95A7-F0A9-4443-87AD-E6EC9DE6FD01" noCertificadoSAT="00001000000202864883" version="1.0" selloSAT="Q61N3Qq5lwNsexF8eq4jOd6v4Ilt/hXeU6ZV2SlhV3Rn1+J3RFoWaw5vfZ2HwYikzbx5nnliVKDAZrGpsxUUWKxRtQR/KviwoVUFbH4U05nol9JdRXcHlNq7FMU6NONWQnN+qEWXAQ5ZRAI/x6YlrX+tj44hiZtuS+byfDOiQww="/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

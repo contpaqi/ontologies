@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="G" folio="38885" LugarExpedicion="PERIFERICO SUR 5183 , PASEOS DEL LAGO, 45619, TLAQUEPAQUE, TLAQUEPAQUE, JALISCO, MEXICO" NumCtaPago="0505" fecha="2013-10-18T16:25:21" sello="p1H5fnqTsjIH6tyDOing/YQ/Z6rJHA7+NAWMBWTw4UfV9x89IQrNGsMDYekrJXafhoRfM6G/o8fndj8Pvy8k4v7hqlj/PjbhnQ1degzxl3yf3Z4nbyhjIyu8gv4bLHGTytm6l7pO3YRqSaFfI8heimSy7Kr84Rs+DCm1zJ2UBBU=" formaDePago="PAGO EN UNA SOLA EXHIBICION" noCertificado="00001000000202963745" certificado="MIIEpzCCA4+gAwIBAgIUMDAwMDEwMDAwMDAyMDI5NjM3NDUwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEzMDIwMjIxNDc0M1oXDTE3MDIwMjIxNDc0M1owgegxLjAsBgNVBAMTJUJBTkRBUyBZIE1BTkdVRVJBUyBFTCBDQU1JTk8gU0EgREUgQ1YxLjAsBgNVBCkTJUJBTkRBUyBZIE1BTkdVRVJBUyBFTCBDQU1JTk8gU0EgREUgQ1YxLjAsBgNVBAoTJUJBTkRBUyBZIE1BTkdVRVJBUyBFTCBDQU1JTk8gU0EgREUgQ1YxJTAjBgNVBC0THEJNQzAyMTAzMTRHNiAvIENPVk82OTA1MjI1TDkxHjAcBgNVBAUTFSAvIENPVk82OTA1MjJIU0xOTEMwODEPMA0GA1UECxMGTUFUUklaMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvoN16G50Qwd/kgpFgmyLYe65h+Vsc05u7StV5pVxImJTzw9oL7xaz2zc0pNoJcWmjjPnAOoJiNVyeN7PJbha/AVqJdCJvlbWaOihv2DYwg8C3eFDYvufNoTmVfALOiMC7HvJOhOGNcMAbVs7yhQWnW8nwHvanY0NqomooKAJ+jQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAlyfI4OuRM5LGsSFknO6zC7Q0uATc5nA6AzOUu3qTmeNaPrXNNZEq4S5CZmwxhcB9zFM1DlKugNZD6g2fqMvFJcg4oLK6dmW751TJ/W+pN/mkHS+yhXgQCD68DmJt43YOt/rm9AEATenZ+wR5HO4ymkyjXyhM6AMY8b/2c0L4+wpD4+B71SC6q0Bj1GSLNlb4OmSrCAzVCAx2QkuA13ohOVqIIo6W5FqghdcIAdTIcqdvqe97GtZzFR7/UrTzbpp4z2q4Zs2irrAdXFTFw6+vfNziBH4q+KXYnlMHapy0ZvnE7wgJJ3u8lRkkpaGjXpaxotI+WthL8RI4z8y+BjrBlA==" subTotal="8862.58" TipoCambio="1.00" Moneda="Peso Mexicano" total="10280.53" metodoDePago="TRANSFERENCIA" tipoDeComprobante="ingreso">
+  <cfdi:Emisor rfc="BMC0210314G6" nombre="BANDAS Y MANGUERAS EL CAMINO SA DE CV">
+    <cfdi:DomicilioFiscal calle="PERIFERICO SUR" noExterior="5183" colonia="PASEOS DEL LAGO" localidad="TLAQUEPAQUE" municipio="TLAQUEPAQUE" estado="JALISCO" pais="MEXICO" codigoPostal="45619"/>
+    <cfdi:ExpedidoEn calle="PERIFERICO SUR" noExterior="5183" colonia="PASEOS DEL LAGO" localidad="TLAQUEPAQUE" municipio="TLAQUEPAQUE" estado="JALISCO" pais="MEXICO" codigoPostal="45619"/>
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES"/>
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="IMM000111A22" nombre="INGENIERIA METALICA Y MAQUINARIA MEXICANA S.A. DE C.V.">
+    <cfdi:Domicilio calle="CARRETERA LIBRE A ZAPOTLANEJO" noExterior="KM 5" noInterior="5000" colonia="SAN PEDRITO" localidad="TLAQUEPAQUE" municipio="TLAQUEPAQUE" estado="JALISCO" pais="MEXICO" codigoPostal="45625"/>
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="0.90" unidad="Pieza" descripcion="MANGUERA DE ALTA PSI 4000 LBS" valorUnitario="79.53" importe="71.58"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="HEMBRA JIC 37 GIRATORIA" valorUnitario="57.22" importe="114.44"/>
+    <cfdi:Concepto cantidad="1.90" unidad="METROS" descripcion="MANGUERA DE ALTA PSI 3100 LBS SAE 100R2AT" valorUnitario="112.13" importe="213.05"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="HEMBRA JIC 37° GIRATORIA" valorUnitario="84.29" importe="168.58"/>
+    <cfdi:Concepto cantidad="0.95" unidad="METROS" descripcion="MANGUERA DE ALTA PSI 3100 LBS SAE 100R2AT" valorUnitario="112.13" importe="106.52"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="HEMBRA JIC 37° GIRATORIA" valorUnitario="84.29" importe="168.58"/>
+    <cfdi:Concepto cantidad="0.95" unidad="METROS" descripcion="MANGUERA DE ALTA PSI 3100 LBS SAE 100R2AT" valorUnitario="112.13" importe="106.52"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="HEMBRA JIC 37° GIRATORIA" valorUnitario="84.29" importe="168.58"/>
+    <cfdi:Concepto cantidad="1.00" unidad="METROS" descripcion="MANGUERA DE ALTA PSI 3100 LBS SAE 100R2AT" valorUnitario="112.13" importe="112.13"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="HEMBRA JIC 37° GIRATORIA" valorUnitario="84.29" importe="84.29"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="HEMBRA JIC 37 GIRATORIA CODO 90 MEDIANO" valorUnitario="189.82" importe="189.82"/>
+    <cfdi:Concepto cantidad="1.00" unidad="METROS" descripcion="MANGUERA DE ALTA PSI 3100 LBS SAE 100R2AT" valorUnitario="112.13" importe="112.13"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="HEMBRA JIC 37° GIRATORIA" valorUnitario="84.29" importe="84.29"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="HEMBRA JIC 37 GIRATORIA CODO 90 MEDIANO" valorUnitario="189.82" importe="189.82"/>
+    <cfdi:Concepto cantidad="0.60" unidad="METROS" descripcion="MANGUERA DE ALTA PSI 3100 LBS SAE 100R2AT" valorUnitario="112.13" importe="67.28"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="HEMBRA JIC 37° GIRATORIA" valorUnitario="84.29" importe="168.58"/>
+    <cfdi:Concepto cantidad="0.60" unidad="METROS" descripcion="MANGUERA DE ALTA PSI 3100 LBS SAE 100R2AT" valorUnitario="112.13" importe="67.28"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="HEMBRA JIC 37° GIRATORIA" valorUnitario="84.29" importe="168.58"/>
+    <cfdi:Concepto cantidad="0.80" unidad="METROS" descripcion="MANGUERA DE ALTA PSI 3100 LBS SAE 100R2AT" valorUnitario="112.13" importe="89.70"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="HEMBRA JIC 37° GIRATORIA" valorUnitario="84.29" importe="168.58"/>
+    <cfdi:Concepto cantidad="0.80" unidad="METROS" descripcion="MANGUERA DE ALTA PSI 3100 LBS SAE 100R2AT" valorUnitario="112.13" importe="89.70"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="HEMBRA JIC 37° GIRATORIA" valorUnitario="84.29" importe="168.58"/>
+    <cfdi:Concepto cantidad="0.50" unidad="METROS" descripcion="MANGUERA DE ALTA PSI 4800 LBS" valorUnitario="70.55" importe="35.28"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="MACHO ROSCA TUBERIA" valorUnitario="41.99" importe="41.99"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="HEMBRA JIC 37 GIRATORIA" valorUnitario="47.58" importe="47.58"/>
+    <cfdi:Concepto cantidad="0.50" unidad="METROS" descripcion="MANGUERA DE ALTA PSI 4800 LBS" valorUnitario="70.55" importe="35.28"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="MACHO ROSCA TUBERIA" valorUnitario="41.99" importe="41.99"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="HEMBRA JIC 37 GIRATORIA" valorUnitario="47.58" importe="47.58"/>
+    <cfdi:Concepto cantidad="1.00" unidad="METROS" descripcion="MANGUERA DE ALTA PSI 2400 LBS SAE 100R2AT" valorUnitario="150.38" importe="150.38"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="HEMBRA JIC 37 GIRATORIA" valorUnitario="152.42" importe="304.84"/>
+    <cfdi:Concepto cantidad="1.62" unidad="METROS" descripcion="MANG MEDIA PRESION 800 LBS" valorUnitario="106.05" importe="171.80"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="CONEXION DE MEDIA PRESION MACHO" valorUnitario="113.26" importe="113.26"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="CONEXION DE MEDIA PRESION HEMBRA JIC" valorUnitario="111.24" importe="111.24"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="CODO HEMBRA DE 3/8 A 90" valorUnitario="54.86" importe="109.72"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="CONECTOR TUBO A NPT" valorUnitario="76.28" importe="76.28"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="CONECTOR TUBO A NPT" valorUnitario="127.71" importe="127.71"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="CONECTOR TUBO A NPT" valorUnitario="127.71" importe="127.71"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="MACHO JIC A HEMBRA NPTF" valorUnitario="131.14" importe="131.14"/>
+    <cfdi:Concepto cantidad="4.00" unidad="PIEZA" descripcion="MACHO ORING" valorUnitario="45.00" importe="180.00"/>
+    <cfdi:Concepto cantidad="4.00" unidad="PIEZA" descripcion="CONNECTOR TUBO A NPT" valorUnitario="37.62" importe="150.48"/>
+    <cfdi:Concepto cantidad="1.00" unidad="Pieza" descripcion="MACHO JIC A MACHO NPTF" valorUnitario="15.00" importe="15.00"/>
+    <cfdi:Concepto cantidad="4.00" unidad="PIEZA" descripcion="MQCHO JIC A HEMBRA JIC A UN EX TREMO" valorUnitario="220.75" importe="883.00"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="TEE HEMBRA NPTF" valorUnitario="78.00" importe="78.00"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="ADAPTADOR DE ROSCA NPTF-NPTF" valorUnitario="45.25" importe="45.25"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="CODO MACHO" valorUnitario="71.66" importe="71.66"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="CONECTOR MACHO" valorUnitario="35.75" importe="35.75"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="MACHO ORING" valorUnitario="135.00" importe="135.00"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="MACHO ORING" valorUnitario="47.18" importe="47.18"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="TAPON MACHO ORING" valorUnitario="37.00" importe="37.00"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="MACHO ORING" valorUnitario="245.27" importe="490.54"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="CONECTOR TUBO A NPT" valorUnitario="76.28" importe="152.56"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="ORING-MACHO A HEMBRA NPTF" valorUnitario="54.13" importe="54.13"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="CONECTOR TUBO A NPT" valorUnitario="76.28" importe="76.28"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="MACHO ORING" valorUnitario="67.90" importe="67.90"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="MACHO NPTF A HEMBRA NPSM" valorUnitario="116.27" importe="116.27"/>
+    <cfdi:Concepto cantidad="3.00" unidad="PIEZA" descripcion="MACHO JIC A MACHO NPTF 90" valorUnitario="90.00" importe="270.00"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="MACHO ORING" valorUnitario="274.50" importe="274.50"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="MACHO ORING" valorUnitario="138.00" importe="138.00"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="MACHO JIC A MACHO NPTF 45°" valorUnitario="50.00" importe="100.00"/>
+    <cfdi:Concepto cantidad="3.00" unidad="PIEZA" descripcion="MACHO JIC A MACHO NPTF 90" valorUnitario="58.00" importe="174.00"/>
+    <cfdi:Concepto cantidad="2.00" unidad="PIEZA" descripcion="MACHO JIC A MACHO NPTF 45" valorUnitario="91.03" importe="182.06"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="MACHO JIC A MACHO NPTF 90" valorUnitario="388.68" importe="388.68"/>
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" descripcion="MACHO JIC A MACHO NPTF" valorUnitario="146.95" importe="146.95"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="1417.95">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="1417.95"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" selloCFD="p1H5fnqTsjIH6tyDOing/YQ/Z6rJHA7+NAWMBWTw4UfV9x89IQrNGsMDYekrJXafhoRfM6G/o8fndj8Pvy8k4v7hqlj/PjbhnQ1degzxl3yf3Z4nbyhjIyu8gv4bLHGTytm6l7pO3YRqSaFfI8heimSy7Kr84Rs+DCm1zJ2UBBU=" FechaTimbrado="2013-10-18T16:25:40" UUID="436047C5-B210-4A3B-A3C7-ADF104770E4A" noCertificadoSAT="00001000000202864883" version="1.0" selloSAT="EwEKb62lgg/YsbInqWAaEf3GtknPCr/PGlU+RmRuD245ERYcE02aKD8t6CTMSDwK112yua7NZK4paqzSctyr+iXgaGw7e7s9xqjg0xsL8iOV9dWBAx3ZXNAZeLaaBOEtkfjy5nyDu1wP2APBwB8rtP7dxtcyLL7FUFCDxHJHFRs="/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

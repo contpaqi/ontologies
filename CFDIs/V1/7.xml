@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="SL" folio="13146" LugarExpedicion="BLVD. ANTONIO ROCHA CORDERO 409 , SIMON DIAZ, 78380, SAN LUIS POTOSI, SAN LUIS POTOSI, SAN LUIS POTOSI, MEXICO" fecha="2013-11-05T09:55:53" sello="NXlTz/2yNpcK+Sgw5rfXXAe333lFBr9jdWKqAZR46VoCSIvyTiTPtD4Poy+8O1aa6PshgtSsVxxgd/pBL82zyzJw+kq68IG/z2sPwZWUpK0djbk9S8roU0U6v4omgQ71bh+HALy4vQIWmCGee0aQRH0ESUBPPsRw86yG+XYQc0I=" formaDePago="PAGO EN UNA SOLA EXHIBICION" noCertificado="00001000000202963745" certificado="MIIEpzCCA4+gAwIBAgIUMDAwMDEwMDAwMDAyMDI5NjM3NDUwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEzMDIwMjIxNDc0M1oXDTE3MDIwMjIxNDc0M1owgegxLjAsBgNVBAMTJUJBTkRBUyBZIE1BTkdVRVJBUyBFTCBDQU1JTk8gU0EgREUgQ1YxLjAsBgNVBCkTJUJBTkRBUyBZIE1BTkdVRVJBUyBFTCBDQU1JTk8gU0EgREUgQ1YxLjAsBgNVBAoTJUJBTkRBUyBZIE1BTkdVRVJBUyBFTCBDQU1JTk8gU0EgREUgQ1YxJTAjBgNVBC0THEJNQzAyMTAzMTRHNiAvIENPVk82OTA1MjI1TDkxHjAcBgNVBAUTFSAvIENPVk82OTA1MjJIU0xOTEMwODEPMA0GA1UECxMGTUFUUklaMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvoN16G50Qwd/kgpFgmyLYe65h+Vsc05u7StV5pVxImJTzw9oL7xaz2zc0pNoJcWmjjPnAOoJiNVyeN7PJbha/AVqJdCJvlbWaOihv2DYwg8C3eFDYvufNoTmVfALOiMC7HvJOhOGNcMAbVs7yhQWnW8nwHvanY0NqomooKAJ+jQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAlyfI4OuRM5LGsSFknO6zC7Q0uATc5nA6AzOUu3qTmeNaPrXNNZEq4S5CZmwxhcB9zFM1DlKugNZD6g2fqMvFJcg4oLK6dmW751TJ/W+pN/mkHS+yhXgQCD68DmJt43YOt/rm9AEATenZ+wR5HO4ymkyjXyhM6AMY8b/2c0L4+wpD4+B71SC6q0Bj1GSLNlb4OmSrCAzVCAx2QkuA13ohOVqIIo6W5FqghdcIAdTIcqdvqe97GtZzFR7/UrTzbpp4z2q4Zs2irrAdXFTFw6+vfNziBH4q+KXYnlMHapy0ZvnE7wgJJ3u8lRkkpaGjXpaxotI+WthL8RI4z8y+BjrBlA==" subTotal="922.70" TipoCambio="1.00" Moneda="Peso Mexicano" total="1070.33" metodoDePago="NO IDENTIFICADO" tipoDeComprobante="ingreso">
+  <cfdi:Emisor rfc="BMC0210314G6" nombre="BANDAS Y MANGUERAS EL CAMINO SA DE CV">
+    <cfdi:DomicilioFiscal calle="PERIFERICO SUR" noExterior="5183" colonia="PASEOS DEL LAGO" localidad="TLAQUEPAQUE" municipio="TLAQUEPAQUE" estado="JALISCO" pais="MEXICO" codigoPostal="45619"/>
+    <cfdi:ExpedidoEn calle="BLVD. ANTONIO ROCHA CORDERO" noExterior="409" colonia="SIMON DIAZ" localidad="SAN LUIS POTOSI" municipio="SAN LUIS POTOSI" estado="SAN LUIS POTOSI" pais="MEXICO" codigoPostal="78380"/>
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES"/>
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="CEC000504VC2" nombre="COMPRESORES Y EQUIPOS DEL CENTRO, S.A. D E C.V. C.P. 78437">
+    <cfdi:Domicilio calle="FRANCISCO I.MADERO" noExterior="107" colonia="COLONIA RURAL &quot;W&quot;" localidad="S.G.S" municipio="S.G.S" estado="SAN LUIS POTOSI" pais="MEXICO" codigoPostal="78437"/>
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="5.00" unidad="METROS" descripcion="MANGUERA P/DESCARGA D/AGUA" valorUnitario="184.54" importe="922.70"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="147.63">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="147.63"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" selloCFD="NXlTz/2yNpcK+Sgw5rfXXAe333lFBr9jdWKqAZR46VoCSIvyTiTPtD4Poy+8O1aa6PshgtSsVxxgd/pBL82zyzJw+kq68IG/z2sPwZWUpK0djbk9S8roU0U6v4omgQ71bh+HALy4vQIWmCGee0aQRH0ESUBPPsRw86yG+XYQc0I=" FechaTimbrado="2013-11-05T09:55:58" UUID="1245BB77-907C-4CD3-88BB-C56B01B0EFDE" noCertificadoSAT="00001000000202864883" version="1.0" selloSAT="UpfvLip2TeUKSAXNMh9OBDWz8m3PKWfJwaVfzEUq/xm9nCu93LI5gnw0S1ZKHzRW8ioSGWSkPF1L+BwBZa9y9eoa6kepairp3fKZX7xKB2m+9vYHcDZSDVaMwc3WKafg7n1SITmC0KaD3LATQYl173RiPJHg7YfTrYIckHjJyac="/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>
