@@ -4,9 +4,9 @@
                   version="3.2" folio="38885"
                   metodoDePago="TRANSFERENCIA" tipoDeComprobante="ingreso">
   <cfdi:Emisor rfc="BMC0210314G6" nombre="BANDAS Y MANGUERAS EL CAMINO SA DE CV">
-    <cfdi:DomicilioFiscal calle="PERIFERICO SUR" noExterior="5183" colonia="PASEOS DEL LAGO" localidad="TLAQUEPAQUE" municipio="TLAQUEPAQUE" estado="JALISCO" pais="MEXICO" codigoPostal="45619"/>
+    <cfdi:DomicilioFiscal calle="PERIFERICO SUR" noExterior="5183" codigoPostal="45619"/>
   </cfdi:Emisor>
   <cfdi:Conceptos>
-    <cfdi:Concepto cantidad="0.90" unidad="Pieza" descripcion="MANGUERA DE ALTA PSI 4000 LBS" valorUnitario="79.53" importe="71.58"/>
+    <cfdi:Concepto cantidad="0.90" unidad="Pieza" descripcion="MANGUERA 4000 LBS" valorUnitario="79.53" importe="71.58"/>
  </cfdi:Conceptos>
 </cfdi:Comprobante>
